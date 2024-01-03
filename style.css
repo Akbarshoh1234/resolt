@@ -1,0 +1,31 @@
+            /*1 section go*/
+
+.container .parent {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.container .parent .child {
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+	width: 	calc(100%  /  4);
+	padding: 15px;
+	margin: 15px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	width: 1174px;
+	margin: auto;
+}
+
+.container .parent .child p {
+	width: 100%;
+}
+
+              /*1 section go*/
